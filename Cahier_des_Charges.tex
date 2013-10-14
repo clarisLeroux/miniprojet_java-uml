@@ -34,13 +34,18 @@
     \item[\textbullet] une feuille
     \item[\textbullet] une paire de ciseaux
  \end{itemize}
-\item Les pions se déplacent de la façon suivante:
+\item Les pions se déplacent d'une case horizontalement, verticalement ou diagonalement.
+\item Les déplacements autorisés sont les suivants:
 \begin{itemize}
   \item[\textbullet]Déplacement d'un pion sur une case vide
   \item[\textbullet]Déplacement d'un pion sur un pion de sa propre couleur (empilement)
   \item[\textbullet]Déplacement d'un pion sur un pion de l'adversaire pouvant être pris
 \end{itemize}
-  \item Il est interdit de sortir un pion du plateau pour atteindre la case opposée.
+\item Les déplacements invalides sont :
+\begin{itemize}
+ \item[\textbullet] tout déplacement sortant du plateau 
+ \item[\textbullet] tout déplacement sur un pion adverse ne pouvant être pris
+\end{itemize}
   \item Les règles pour les prises des pions adverses sont les suivantes:
 \begin{itemize}
   \item[\textbullet]Le puit prends la pierre et les ciseaux
@@ -48,12 +53,8 @@
   \item[\textbullet]la pierre prend les ciseaux
   \item[\textbullet]Les ciseaux prennent la feuille
 \end{itemize}
+\item A chaque début de partie le plateau est initialisé de la façcon suivante:
 
- \item Les déplacements invalides sont :
-\begin{itemize}
- \item[\textbullet] tout déplacement en dehors du plateau 
- \item[\textbullet] tout déplacement sur un pion adverse ne pouvant être pris
-\end{itemize}
 \item Lorqu'un qu'un pion est pris, il est alors retiré du plateau. Si ce pion était au sommet d'une pile, la totalité de la pile est alors retirée du plateau. 
 \item Le nombre de points marqué par un joueur correspond au nombre de pions qu'il a pris à son adversaire.
 \item La partie se termine lorsqu'un des joueurs n'a plus de pions ou lorsqu'il ne reste plus qu'une sorte de pions sur le plateau.
@@ -71,8 +72,8 @@
  \end{itemize}
  \item En phase de jeu, le programme
  \begin{itemize}
-  \item[\textbullet] présente à l'utilisateur l'état du jeu (joueur courant, gagnant s'il existe) et de sa grille (placement des pions)
-  \item[\textbullet] fournit à l'utilisateur le moyen de désigner la case jouée
+  \item[\textbullet] présente à l'utilisateur l'état du jeu, le joueur ayant la main ou ayant gagné si la partie est finie et l'état de la grille (placement des pions)
+  \item[\textbullet] fournit à l'utilisateur le moyen de désigner la nouvelle case et la précédente
   \end{itemize}
  
   \item affiche une allarme si le déplacement n'est pas valide, sinon change de joueur
