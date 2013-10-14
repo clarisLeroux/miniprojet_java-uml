@@ -6,6 +6,7 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{mathrsfs}
+\usepackage{graphicx}
 
 
 \begin{document}
@@ -78,10 +79,29 @@
   \item actualise ces informations jusqu'à la fin du jeu
  \end{itemize}
 \section{version 1 : affichage en console}
-
+\begin{itemize}
+ \item Lors de cette version, chaque colonne est identifiée par un chiffre et chaque ligne par une lettre.
+ \item Le joueur identifie donc la case de départ ainsi que la case d'arrivée par ses coordonnées (lettre,chiffre)
+ \item Sur le plateau, on identifie un pion par un chiffre (taille de la pile) suivi d'une lettre (nature du sommet de la pile)
+ \begin{itemize}
+  \item[\textbullet] f : feuille
+  \item[\textbullet] r : rock (pierre)
+  \item[\textbullet] p : puit
+  \item[\textbullet] c : ciseaux
+ \end{itemize}
+\end{itemize}
+\centering{
+  \includegraphics[width=5cm]{plateau.png}
+  }
 \section{version 2 : version graphique}
+\begin{itemize}
+ \item Lors de cette version, le plateau sera plus ressemblant à celui du jeu de société
+ \item Cette fois, l'utilisateur interagira avec le plateau directement en cliquant sur les cases
+ \item Sur le plateau, le nombre de pions empilés pourra être compté par le joueurs et chaque pion est identifié par un dessin
+\end{itemize}
 
 \section{version 3 : mode réseau}
 
+Cette version reprend la version graphique précédente en permettant à deux joueurs de jouer l'un contre l'autre depuis deux ordinateurs différents par le biais du réseau.
  
 \end{document}
