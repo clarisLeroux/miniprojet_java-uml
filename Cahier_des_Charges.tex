@@ -7,6 +7,7 @@
 \usepackage{amssymb}
 \usepackage{mathrsfs}
 
+
 \begin{document}
  
 \title{Chifoumi - Cahier des charges}
@@ -22,6 +23,31 @@
 \section{Règles du jeu}
 
 \begin{itemize}
+
+ \item C'est un jeu fait pour deux joueurs.
+ \item Ce jeu se déroule sur un plateau (une grille de 7*7 cases) en forme de "+".
+ \item On dispose sur ce plateau de pions ronds pouvant representer:
+ \begin{itemize}
+    \item[\textbullet] un puit
+    \item[\textbullet] une pierre
+    \item[\textbullet] une feuille
+    \item[\textbullet] une paire de ciseaux
+ \end{itemize}
+\item Les pions se déplacent de la façon suivante:
+\begin{itemize}
+  \item[\textbullet]Déplacement d'un pion sur une case vide
+  \item[\textbullet]Déplacement d'un pion sur un pion de sa propre couleur (empilement)
+  \item[\textbullet]Déplacement d'un pion sur un pion de l'adversaire pouvant être pris
+\end{itemize}
+  \item Il est interdit de sortir un pion du plateau pour atteindre la case opposée.
+  \item Les règles pour les prises des pions adverses sont les suivantes:
+\begin{itemize}
+  \item[\textbullet]Le puit prends la pierre et les ciseaux
+  \item[\textbullet]La feuille prend le puit et la pierre
+  \item[\textbullet]la pierre prend les ciseaux
+  \item[\textbullet]Les ciseaux prennent la feuille
+\end{itemize}
+
  \item Les déplacements invalides sont :
 \begin{itemize}
  \item[\textbullet] tout déplacement en dehors du plateau 
@@ -33,7 +59,6 @@
 \item Le joueur gagnant est celui qui a marqué le plus de points. En cas d'égalité, le joueur qui a commencé perd.
 \item Le joueur garde la main tant qu'il n'a pas fourni un déplacement valide
 \end{itemize}
-
 
 \section{Déroulement du programme}
  \begin{itemize}
