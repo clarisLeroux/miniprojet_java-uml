@@ -54,7 +54,7 @@
   \item[\textbullet]Les ciseaux prennent la feuille
 \end{itemize}
 \item A chaque début de partie le plateau est initialisé de la façcon suivante:
-
+\includegraphics[width=0.5\textwidth]{images/init.png}
 \item Lorqu'un qu'un pion est pris, il est alors retiré du plateau. Si ce pion était au sommet d'une pile, la totalité de la pile est alors retirée du plateau. 
 \item Le nombre de points marqué par un joueur correspond au nombre de pions qu'il a pris à son adversaire.
 \item La partie se termine lorsqu'un des joueurs n'a plus de pions ou lorsqu'il ne reste plus qu'une sorte de pions sur le plateau.
@@ -76,7 +76,7 @@
   \item[\textbullet] fournit à l'utilisateur le moyen de désigner la nouvelle case et la précédente
   \end{itemize}
  
-  \item affiche une allarme si le déplacement n'est pas valide, sinon change de joueur
+  \item affiche une alarme si le déplacement n'est pas valide, sinon change de joueur
   \item actualise ces informations jusqu'à la fin du jeu
  \end{itemize}
 \section{version 1 : affichage en console}
@@ -92,12 +92,13 @@
  \end{itemize}
 \end{itemize}
 \centering{
-  \includegraphics[width=5cm]{plateau.png}
+  \includegraphics[width=5cm]{images/plateau.png}
   }
 \section{version 2 : version graphique}
 \begin{itemize}
  \item Lors de cette version, le plateau sera plus ressemblant à celui du jeu de société
- \item Cette fois, l'utilisateur interagira avec le plateau directement en cliquant sur les cases
+ \item Cette fois, l'utilisateur interagira avec le plateau directement en cliquant sur les cases 
+ \item Lorsqu'une case contenant un pion est selectionnée, les cases où le pion peut se déplacé sont affichées en surbrillance
  \item Sur le plateau, le nombre de pions empilés pourra être compté par le joueurs et chaque pion est identifié par un dessin
 \end{itemize}
 
