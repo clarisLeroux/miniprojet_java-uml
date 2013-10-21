@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;uchifoumi_1.0/Models/tictactoe.uml&apos; to &apos;chifoumi_1.0.uml&apos;" description="Rename resource &apos;tictactoe.uml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Models/tictactoe.uml" name="chifoumi_1.0.uml" stamp="1382090052084" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;uchifoumi_1.0/Models/tictactoe.uml&apos; to &apos;chifoumi_1.0.uml&apos;" description="Rename resource &apos;tictactoe.uml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Models/tictactoe.uml" name="chifoumi_1.0.uml" stamp="1382090716088" updateReferences="true"/>
+</session>

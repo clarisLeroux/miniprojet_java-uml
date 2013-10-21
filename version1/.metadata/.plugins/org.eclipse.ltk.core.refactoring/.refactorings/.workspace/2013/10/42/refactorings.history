@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete 2 resources" deleteContents="false" description="Delete 2 resources" element1="/uchifoumi_1.0/Models/chifoumi_1.0.uml" element2="/uchifoumi_1.0/Models/chifoumi_1.0.umldi" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1382090340341"/>&#x0A;<refactoring comment="Delete resource &apos;uchifoumi_1.0/.project&apos;" deleteContents="false" description="Delete resource &apos;uchifoumi_1.0/.project&apos;" element1="/uchifoumi_1.0/.project" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1382090669508"/>
+</session>

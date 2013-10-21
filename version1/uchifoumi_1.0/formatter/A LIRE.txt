@@ -1,0 +1,8 @@
+Avant de reformatter un fichier source Java,
+pour rester compatible avec le générateur de code,
+vérifier que le formatteur est réglé sur le style Topcased.
+Window > Preferences > Java > Code Style > Formatter > "TOPCASED Convention"
+
+Si ce n'est pas le cas, et si ce format n'est pas disponible,
+importez le fichier topcased_formatter.xml ci-joint
+Window > Preferences > Java > Code Style > Formatter > Import...

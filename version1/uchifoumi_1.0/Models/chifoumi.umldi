@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagrams:Diagrams xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.topcased.org/DI/1.0" xmlns:diagrams="http://www.topcased.org/Diagrams/1.0" xmi:id="_6_3KgDpbEeOJKsYas_-I9Q" activeDiagram="_JruskDpdEeOJKsYas_-I9Q">
+  <model href="chifoumi.uml#_w8IxIM37EdqwVrslYOdUDA"/>
+  <diagrams xmi:id="_6_3KgTpbEeOJKsYas_-I9Q" position="0,0" size="100,100" name="chifoumi" viewport="0,0">
+    <property xmi:id="_7EsnMDpbEeOJKsYas_-I9Q" key="pageFormatName" value="A4"/>
+    <property xmi:id="_7EsnMTpbEeOJKsYas_-I9Q" key="diagramWidth" value="840"/>
+    <property xmi:id="_7EsnMjpbEeOJKsYas_-I9Q" key="diagramHeight" value="1188"/>
+    <property xmi:id="_7EtOQDpbEeOJKsYas_-I9Q" key="pageMarginName" value="Small Margin"/>
+    <property xmi:id="_7EtOQTpbEeOJKsYas_-I9Q" key="diagramTopMargin" value="20"/>
+    <property xmi:id="_7EtOQjpbEeOJKsYas_-I9Q" key="diagramBottomMargin" value="20"/>
+    <property xmi:id="_7EtOQzpbEeOJKsYas_-I9Q" key="diagramLeftMargin" value="20"/>
+    <property xmi:id="_7EtORDpbEeOJKsYas_-I9Q" key="diagramRightMargin" value="20"/>
+    <property xmi:id="_7EtORTpbEeOJKsYas_-I9Q" key="orientation" value="portrait"/>
+    <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_6_3KgjpbEeOJKsYas_-I9Q" presentation="org.topcased.modeler.uml.classdiagram">
+      <element href="chifoumi.uml#_w8IxIM37EdqwVrslYOdUDA"/>
+    </semanticModel>
+  </diagrams>
+  <diagrams xmi:id="_BcokMDpdEeOJKsYas_-I9Q" position="0,0" size="100,100" name="chifoumi1" viewport="0,0">
+    <property xmi:id="_BdnboDpdEeOJKsYas_-I9Q" key="pageFormatName" value="A4"/>
+    <property xmi:id="_BdnboTpdEeOJKsYas_-I9Q" key="diagramWidth" value="840"/>
+    <property xmi:id="_BdoCsDpdEeOJKsYas_-I9Q" key="diagramHeight" value="1188"/>
+    <property xmi:id="_BdoCsTpdEeOJKsYas_-I9Q" key="pageMarginName" value="Small Margin"/>
+    <property xmi:id="_BdoCsjpdEeOJKsYas_-I9Q" key="diagramTopMargin" value="20"/>
+    <property xmi:id="_BdoCszpdEeOJKsYas_-I9Q" key="diagramBottomMargin" value="20"/>
+    <property xmi:id="_BdoCtDpdEeOJKsYas_-I9Q" key="diagramLeftMargin" value="20"/>
+    <property xmi:id="_BdoCtTpdEeOJKsYas_-I9Q" key="diagramRightMargin" value="20"/>
+    <property xmi:id="_BdoCtjpdEeOJKsYas_-I9Q" key="orientation" value="portrait"/>
+    <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_BcpLQDpdEeOJKsYas_-I9Q" presentation="org.topcased.modeler.uml.usecasediagram">
+      <element href="chifoumi.uml#_w8IxIM37EdqwVrslYOdUDA"/>
+    </semanticModel>
+  </diagrams>
+  <subdiagrams xmi:id="_JrpNADpdEeOJKsYas_-I9Q">
+    <model href="chifoumi.uml#_HuzF0DpdEeOJKsYas_-I9Q"/>
+    <diagrams xmi:id="_JruskDpdEeOJKsYas_-I9Q" position="0,0" size="100,100" name="Activity1" viewport="0,0">
+      <property xmi:id="_Juo2oDpdEeOJKsYas_-I9Q" key="pageFormatName" value="A4"/>
+      <property xmi:id="_Juo2oTpdEeOJKsYas_-I9Q" key="diagramWidth" value="840"/>
+      <property xmi:id="_Juo2ojpdEeOJKsYas_-I9Q" key="diagramHeight" value="1188"/>
+      <property xmi:id="_Juo2ozpdEeOJKsYas_-I9Q" key="pageMarginName" value="Small Margin"/>
+      <property xmi:id="_Juo2pDpdEeOJKsYas_-I9Q" key="diagramTopMargin" value="20"/>
+      <property xmi:id="_JupdsDpdEeOJKsYas_-I9Q" key="diagramBottomMargin" value="20"/>
+      <property xmi:id="_JupdsTpdEeOJKsYas_-I9Q" key="diagramLeftMargin" value="20"/>
+      <property xmi:id="_JupdsjpdEeOJKsYas_-I9Q" key="diagramRightMargin" value="20"/>
+      <property xmi:id="_JupdszpdEeOJKsYas_-I9Q" key="orientation" value="portrait"/>
+      <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_JruskTpdEeOJKsYas_-I9Q" presentation="org.topcased.modeler.uml.activitydiagram">
+        <element href="chifoumi.uml#_HuzF0DpdEeOJKsYas_-I9Q"/>
+      </semanticModel>
+    </diagrams>
+  </subdiagrams>
+</diagrams:Diagrams>
